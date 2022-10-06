@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 3.462 s <<< FAILURE! - in com.runner.RunnerTest
+user launch the application(user login with valid data)  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user launch the application' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user launch the application")
+public void user_launch_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter with below data")
+public void user_enter_with_below_data(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click login button")
+public void user_click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+user login with valid data  Time elapsed: 0.003 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user launch the application' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user launch the application")
+public void user_launch_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter with below data")
+public void user_enter_with_below_data(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click login button")
+public void user_click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
